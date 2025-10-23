@@ -21,6 +21,8 @@ public class Libro extends Publicacion implements Prestamo {
         System.out.println("Libro: " + getTitulo() + " - Autor: " + getAutor() + " - Año: " + getAnioPublicacion());
     }
 
+    @Override
+    
     public String tipoPrestamo() {
         return "Prestamo por 15 dias";
     }

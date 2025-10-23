@@ -21,7 +21,8 @@ public class Revista extends Publicacion implements Prestamo {
     public void mostrarDatos(){
         System.out.println("Revista: "+getTitulo()+" - Edicion N°: "+getNumeroEdicion()+" - Año: "+getAnioPublicacion());
     }
-
+   
+    @Override
      public String tipoPrestamo() {
         return "Prestamo por 7 dias";
     }
